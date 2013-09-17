@@ -35,3 +35,30 @@ body {
 	background-color: #fff;
 	box-shadow: 0px 0px 4px #888;	
 }
+
+/* HEADER STYLES
+----------------------------
+----------------------------*/
+
+#logo {
+	float: left;
+	margin-left: .313em;
+}
+
+nav ul {
+	font-family: 'Doppio One', sans-serif;
+	background-color: #ffe9ee;
+	height: 3.125em;
+	line-height: 3.125em;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	padding: .95em;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #cd5572;
+}
