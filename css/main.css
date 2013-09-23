@@ -289,6 +289,28 @@ p.price {
 	top: -0.5em;
 }
 
+/*----------------------------------- Slider --------------------------------------------*/
+
+
+ol.bjqs-markers li a {
+    display: inline-block;
+    text-indent: -9999em;
+}
+
+.bjqs-prev {
+	text-indent: -9999em;
+}
+
+.bjqs-next {
+	text-indent: -9999em;
+}
+
+#banner-slide {
+	margin-top: 0px;
+}
+
+
+
 /* CONTACT FORM
 		----------------------------
 		----------------------------*/
