@@ -1,111 +1,146 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="css/main.css">
-<!-- bjqs.css contains the *essential* css needed for the slider to work -->
-    <link rel="stylesheet" href="css/bjqs.css">
+	<head>
+		<title>TGFC</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="No Anchor is a lifestyle brand and production company dedicated to bringing you the latest action sports videos and newest music. Stay up to date on all our social media sites!" />
+		<meta name="keywords" content="TGFC/Thank God For Clouds" />
 
-    <!-- load jQuery and the plugin -->
-    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script src="js/bjqs-1.3.min.js"></script>
-<title>TGFC</title>
-</head>
-<body>
-<header id="header_wrap"><!-- open header -->
-	<h1 id="logo">TGFC</h1><!-- This is the logo -->
-<nav id="nav"> <!-- open nav -->
-	<ul>
-		<li><a href="index.html" id="active">Welcome</a></li>
-		<li><a href="about.html">About</a></li>
-		<li><a href="https://highfashionent.bigcartel.com/">Shop</a></li>
-		<li><a href="gallery.html">Gallery</a></li>
-		<li><a href="upcoming.html">Upcoming</a></li>
-		<li><a href="contact.html">Contact</a></li> 
-	</ul>
-</nav> <!-- close nav -->
-	<p id="slogan">In Clouds We TRUST &amp; Much More!</p>
-</header><!-- end header wrap -->
+		<!--[if lt IE 9]>
+			<script src="dist/html5shiv.js"></script>
+			<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+		<![endif]-->
 
-<!-- SIDEBAR -->
-			<aside> 
-				<!-- QUOTE -->
-				<blockquote><p>"AT AN EARLY AGE I REALIZED THE IMPORTANCE OF FASHION AND THE IMPORTANCE OF LOOKING NOT ONLY PRESENTABLE AT ALL TIMES,BUT FRESH!CLOTHES AREN'T MEANT TO OVERSHADOW THE PERSON YOU ARE,THEY ARE MEANT TO ACCENT YOUR IMAGE AND GIVE YOU THAT EXTRA BOOST OF CONFIDENCE THAT YOU MAY BE LACKING."</p></blockquote>
-				<p id="lyte">-Lyte</p>
+		<!-- Skeleton Framework -->	
+		<link rel="stylesheet" type="text/css" href="css/skeleton.css">
 
-				<!--SEARCH BAR -->
-				<div id="search">
-				<form action="#">
-					<input type="search" name="search" placeholder="Search HighFashionEnt.com" tabindex="1"/>
-					<input id="search_button" type="submit" value="Go"/>
-				</form>
-				</div> <!-- END OF SEARCH -->
+		<!-- Main -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 
-				<!--CATEGORY 
-				<h2>Popular Categories</h2>
-					<ul>
-						<li><a href="#">Collectibles</a></li>
-						<li><a href="#">Kitchen Items</a></li>
-						<li><a href="#">Christmas Ornaments</a></li>
-						<li><a href="#">Videos &amp; DVDs</a></li>
-					</ul>-->
-			</aside>
+		<!-- Slider JS -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/easySlider1.7.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){	
+				$("#slider").easySlider({
+					auto: true, 
+					continuous: true
+				});
+			});	
+		</script>
 
-			<!-- MAIN CONTENT -->
-			<section id="content">
-				<h3 id="title">Welcome</h3>
-					<div id="banner-slide">
+	</head>
+	<body>
+		<div id="wrapper">
 
-        <!-- start Basic Jquery Slider -->
-        <div id="slider">
-	        <figure>
-		       <img src="images/slider1.png" alt="Mellow Stoner">
-		       <img src="images/slider2.png" alt="TGFC Stoner">
-		       <img src="images/slider3.png" alt="TGFC Versace">
-		       <img src="images/slider4.png" alt="Trill Mickey">
-		     </figure>
-		</div>
- 
-        <!-- end Basic jQuery Slider -->
+			<header>
+				<div id="header_top"></div>
+				<div id="header_bottom"></div>
+				<div id="header_texture"></div>
+				<div id="header_nav" class="container">
+					<div id="logo">
+						<a href="#"><img src="images/logo.png"></a>
+						<div id="logo_text"><a href="#">TGFC</a></div>
+					</div> <!-- end logo -->
+					<nav>
+						<ul>
+							<li><a href="http://highfashionent.bigcartel.com/">SHOP</a></li>
+							<li><a href="#contact_form">CONTACT</a></li>
+							<li><a href="#who_we_are">WHO WE ARE</a></li>
+						</ul>
+						<ul id="icons">
+							<li><a id="facebook" href="https://www.facebook.com/HighfashionCarter">Facebook</a></li>
+							<li><a id="youtube" href="http://www.youtube.com/user/HighfasionLyte">Youtube</a></li>
+							<li><a id="tumblr" href="">Tumblr</a></li>
+							<li><a id="twitter" href="https://twitter.com/MRZDOLLAZ90">Twitter</a></li>
+							<li><a id="insta" href="http://instagram.com/_soleaddict_/#">Instagram</a></li>
+						</ul>	
+					</nav>
+				</div> <!--end container -->
+			</header>
 
-      </div>
-      <!-- End outer wrapper -->
-      
-      
+			<div id="main_content" class="container">
+				
+				<section id="banner">
+					<div id="slider">
+						<ul>				
+							<li><img src="images/banner-1.png" alt="Mello Stoner" /></li>
+							<li><img src="images/banner-2.png" alt="Stoner" /></li>	
+							<li><img src="images/banner-3.png" alt="Versace" /></li>	
+							<li><img src="images/banner-4.png" alt="Trill Mickey" /></li>	
+						</ul>
+					</div> <!-- end slider -->
+				</section>
 
-    </div>
-
-				<article id="about-us_content">
-					<!-- MAIN CONTENT 	<p id="our_image"><img src="images/about-us/cathy_lg.jpg" alt="Photo of Lyte&Denzell" title="Photo of Lyte&Denzell" /></p>-->
-						<p> This is just the start I swear we are at the starting line right now the race hasnt even started yet! We here at HighFashion Entertainment have so much more in store for you guys</p>
-
-						<p>HighFashion Is Not Just An Image It’s A Mindset You Don’t Have To Be The Most Fashionable Person To Be “HighFashion” But The Way You Act And Carry Yourself Makes You HighFashion. HighFashion Is Larger Than Life Being Fly By All Means HighFashion Means To Shine Even AtThe Darkest Of Times</p>
+				<section id="kickstart">
+					<div id="video">
+					
+					<iframe src="http://www.youtube.com/embed/uIbkLjjlMV8"
+   width="400" height="275" frameborder="0" allowfullscreen>
+					</iframe>
+										
+						<!-- <iframe width="400" height="275" src="http://www.youtube.com/embed/Ge_QayJ-aZA?rel=0" frameborder="0" allowfullscreen></iframe> -->
 						
-				</article>
-			</section> <!-- END OF CONTENT -->
+					
+					</div>
+					<div id="kickstart_title">
+						<p>TGFC <br /> New Video Alert</p>
+					</div>
+					<div id="kickstart_text">
+						<p>TGFC new commercial video is out now! Check it out and share it with a friend! We will be making more commercial videos very soon so stay tuned.</p>
+					</div>
+				</section>
 
+				<section id="instagram">
 
+					<!-- SnapWidget -->
+					<!-- <iframe src="http://snapwidget.com/in/?u=bm9hbmNob3Jwcm9qZWN0fGlufDE5NXw0fDJ8fG5vfDIwfG5vbmV8b25TdGFydHx5ZXM=&v=18913" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:860px; height: 420px" ></iframe>-->
+					 
+					 <iframe src="http://snapwidget.com/in/?u=aGZseXRlfGlufDE5NXw0fDJ8fG5vfDV8bm9uZXxvblN0YXJ0fHllcw==&v=11113" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:800px; height: 400px" ></iframe>
+					
+						
+					<!--<script src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="noanchor" data-columns="4"  style="height:400px;width:940px;"><a href="http://www.tintup.com" style="width:118px;height:31px;background-image:url(//d33w9bm0n1egwm.cloudfront.net/assets/logos/poweredbytintsmall.png);position:absolute;bottom:10px;right: 20px;text-indent: -9999px;z-index:9;">hashtag aggregation</a></div>-->
+				</section>
 
- <!-- FOOTER -->
+				<section id="who_we_are">
+					<img src="images/whoweare.png">
+					<p>
+						Thank God 4 Clouds Realized The Importance Of Fashion And The Importance Of Looking Not Only Presentable At All Times, But FRESH!Clothes Aren't Meant To Overshadow The Person You Are, They Are Meant To Accent Your Image And Give You That Extra Boost Of Confidence That You May Be Lacking. 
+						We’re a lifestyle. We’re A Brand. We’re a Clothing Company.
+
+						<br /><br />We Are Fashion. 
+					</p>
+				</section>
+
+			</div> <!--end main_content -->
+
 			<footer>
+				<div class="container">
+					<div id="contact_form">
+				        <h2>Contact</h2>
+				        <form id="input_text" action="js/contact.php" method="post">
+				            <input type="text" id="input_name" name="cf_name" placeholder="Your Name"><br>
+				            <input type="text" id="input_email" name="cf_email" placeholder="Your Email Address"><br>
+				            <input type="text" name="cf_color" placeholder="Your Favorite Color"><br>
+				            <textarea id="input_message" name="cf_message" placeholder="Your Message"></textarea><br>
+				          	<input type="submit" value="Send">
+				        </form>
+	      			</div>
 
-				<!-- LEFT FOOTER -->
-				<ul id="footer_nav">
-					<li><a href="index.html">Welcome</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="">Shop</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="upcoming.html">Upcoming</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+      				<a href="http://lookbook.nu/highfashionlyte"><img src="images/beary.png" alt="HighFashionENT Lookbook Account-PeaceLoveAndFASHION:)"/></a>
 
-				<!-- RIGHT FOOTER -->
-				<ul id="copyright">
-					<li>Copyright &copy; 2007-2013</li>
-					<li>HighFashionEnt/TGFC</li>
-					<li>P. (980)226-0470</li>
-				</ul>
+      			</div>
 			</footer>
-</div><!-- wrapper end -->
-</body>
+
+		</div> <!-- end wrapper -->
+
+		<!-- Slider JS -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/easySlider1.7.js"></script>
+		<script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-44110637-1', 'noanchor.com'); ga('send', 'pageview');
+		</script>
+
+	</body>
 </html>
