@@ -57,33 +57,21 @@
 					<div id="banner-slide">
 
         <!-- start Basic Jquery Slider -->
-        <ul class="bjqs">
-          <li><a href=><img src="images/slider1.png" alt="Mellow Stoner"></a></li>
-          <li><a href=><img src="images/slider2.png" alt="TGFC Stoner"></a></li>
-          <li><a href=><img src="images/slider3.png" alt="TGFC Versace"></a></li>
-          <li><a href=><img src="images/slider4.png" alt="Trill Mickey"></a></li>
-         <!-- MAIN CONTENT  <li><a href="seasons.html"><img src="images/slider5.jpg" alt="Elementary school kids in an Easter play"></a></li>-->
-          
-        </ul>
+        <div id="slider">
+	        <figure>
+		       <img src="images/slider1.png" alt="Mellow Stoner">
+		       <img src="images/slider2.png" alt="TGFC Stoner">
+		       <img src="images/slider3.png" alt="TGFC Versace">
+		       <img src="images/slider4.png" alt="Trill Mickey">
+		     </figure>
+		</div>
+ 
         <!-- end Basic jQuery Slider -->
 
       </div>
       <!-- End outer wrapper -->
       
-      <!-- attach the plug-in to the slider parent element and adjust the settings as required -->
-      <script class="secret-source">
-        jQuery(document).ready(function($) {
-          
-          $('#banner-slide').bjqs({
-            animtype      : 'slide',
-            height        : 400,
-            width         : 1140,
-            responsive    : true,
-            randomstart   : true
-          });
-          
-        });
-      </script>
+      
 
     </div>
 
