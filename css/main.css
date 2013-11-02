@@ -2,7 +2,7 @@
 
 -----Info
 
-No Anchor 
+TGFC/HighFashionENT 
 Web Developer: Lyteia Kitchen
 
 -----Color Swatch
@@ -32,10 +32,11 @@ Nav Text Hover Gold: #bea322
 ---------------------------------------------------------------------------------------------------*/
 
 
-html,body,div,form,fieldset,legend,label,h1,h2,h3,h4,h5,h6,p,ul,dl,dt,dd,figure,figcaption {
+html,body,div,form,fieldset,legend,label,h1,h2,h3,h4,h5,h6,p,ul,dl,dt,dd,figure,figcaption{
 	margin: 0;
 	padding: 0;
 }
+
 
 a{
 	text-decoration: none;
@@ -67,7 +68,7 @@ header, header a, nav a{
 }
 
 #header_bottom{
-	background-color: #161616;
+	background-color: #000;
 	height: 34px;
 	width: 100%;
 }
@@ -116,7 +117,7 @@ header a:hover, nav a:hover{
 ---------------------------------------------------------------------------------------------------*/
 
 
-nav ul#icons {
+nav ul#icons{
 	width: 156px;
 	float: right;
 	margin-left: 0;
@@ -144,43 +145,43 @@ ul#icons li a#facebook:hover{
 	background-position: 0 -25px;
 }
 
-ul#icons li a#youtube {
+ul#icons li a#youtube{
 	background-position: -26px 0px;
 }
 
-ul#icons li a#youtube:hover {
+ul#icons li a#youtube:hover{
 	background-position: -26px -25px;
 }
 
-ul#icons li a#tumblr {
+ul#icons li a#tumblr{
 	background-position: -52px 0px;
 }
 
-ul#icons li a#tumblr:hover {
+ul#icons li a#tumblr:hover{
 	background-position: -52px -25px;
 }
 
-ul#icons li a#twitter {
+ul#icons li a#twitter{
 	background-position: -78px 0px;
 }
 
-ul#icons li a#twitter:hover {
+ul#icons li a#twitter:hover{
 	background-position: -78px -25px;
 }
 
-ul#icons li a#vimeo {
+ul#icons li a#vimeo{
 	background-position: -104px 0px;
 }
 
-ul#icons li a#vimeo:hover {
+ul#icons li a#vimeo:hover{
 	background-position: -104px -25px;
 }
 
-ul#icons li a#insta {
+ul#icons li a#insta{
 	background-position: -130px 0px;
 }
 
-ul#icons li a#insta:hover {
+ul#icons li a#insta:hover{
 	background-position: -130px -25px;
 }
 
