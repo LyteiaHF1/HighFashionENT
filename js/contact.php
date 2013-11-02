@@ -4,8 +4,8 @@ $field_email = $_POST['cf_email'];
 $field_color = $_POST['cf_color'];
 $field_message = $_POST['cf_message'];
 
-$mail_to = 'lytehighfashion@gmail.com';
-$subject = 'TGFC Contact Form Messgae: '.$field_name;
+$mail_to = 'highfashion.tgfc@gmail.com';
+$subject = 'TGFC Contact Form Message: '.$field_name;
 
 $body_message = 'From: '.$field_name."\n";
 $body_message .= 'E-mail: '.$field_email."\n";
@@ -27,7 +27,7 @@ if ($mail_status) { ?>
 else { ?>
 	<script language="javascript" type="text/javascript">
 		//alert('Message failed. Please, send an email to gordon@template-help.com');
-		alert('Message failed... You can email us at lytehighfashion@gmail.com!);
+		alert('Message failed... You can email us at highfashion.tgfc@gmail.com!);
 		window.location = 'http://highfashionentertainment.com';
 	</script>
 <?php
