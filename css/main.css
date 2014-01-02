@@ -60,10 +60,13 @@ section{
 header, header a, nav a{
 	color: #fcfcfc;
 }
+/*
 nav ul li#thank_you a{
 	font-size: xx-small;
 	color: black;
 }
+
+*/
 
 #header_top{
 	background-color: #000;
@@ -115,9 +118,6 @@ header a:hover, nav a:hover{
 	color: #bea322;
 }
 
-li #thank_you {
-	
-}
 
 /* ---------------------------------------------------------------------------------------------------
 		? Header Icons
@@ -270,7 +270,7 @@ p#instagram_info{
 	font: 25px 'FestivoLettersNo7';
 	text-align: center;
 }
-
+/*
 #thank_you{
 	width: 840px;
 	margin: 0 auto;
@@ -287,7 +287,7 @@ p#instagram_info{
 	text-align: center;
 }
 
-
+*/
 
 /* ---------------------------------------------------------------------------------------------------
 		? Banner 
