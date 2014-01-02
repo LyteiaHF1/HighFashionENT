@@ -60,8 +60,9 @@ section{
 header, header a, nav a{
 	color: #fcfcfc;
 }
-nav ul li #thank_you{
+nav ul li#thank_you a{
 	font-size: xx-small;
+	color: black;
 }
 
 #header_top{
