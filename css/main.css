@@ -271,13 +271,13 @@ p#instagram_info{
 	text-align: center;
 }
 
-#thanks{
+#thank_you{
 	width: 840px;
 	margin: 0 auto;
 	padding: 25px 0;
 }
 
-#thanks p{
+#thank_you p{
 	background: url(../images/lk_who_we_are_bg.png) no-repeat;
 	width: 695px;
 	height: 295px;
