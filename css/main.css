@@ -60,6 +60,9 @@ section{
 header, header a, nav a{
 	color: #fcfcfc;
 }
+nav ul li #thank_you{
+	font-size: xx-small;
+}
 
 #header_top{
 	background-color: #000;
@@ -112,7 +115,7 @@ header a:hover, nav a:hover{
 }
 
 li #thank_you {
-	background: black;
+	
 }
 
 /* ---------------------------------------------------------------------------------------------------
