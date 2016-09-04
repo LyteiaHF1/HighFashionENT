@@ -20,7 +20,7 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);
 if ($mail_status) { ?>
 	<script language="javascript" type="text/javascript">
 		alert('Thanks for contacting us. You\'ll hear back from us shortly!');
-		window.location = 'http://highfashionentertainment.com';
+		window.location = 'http://tgfcclothing.com';
 	</script>
 <?php
 }
@@ -28,7 +28,7 @@ else { ?>
 	<script language="javascript" type="text/javascript">
 		//alert('Message failed. Please, send an email to gordon@template-help.com');
 		alert('Message failed... You can email us at highfashion.tgfc@gmail.com!);
-		window.location = 'http://highfashionentertainment.com';
+		window.location = 'http://tgfcclothing.com';
 	</script>
 <?php
 }
