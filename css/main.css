@@ -120,11 +120,11 @@ header a:hover, nav a:hover{
 
 
 /* ---------------------------------------------------------------------------------------------------
-		? Header Icons
+		? Footer Icons
 ---------------------------------------------------------------------------------------------------*/
 
 
-nav ul#icons{
+header ul#icons{
 	width: 156px;
 	float: right;
 	margin-left: 0;
@@ -132,14 +132,14 @@ nav ul#icons{
 	padding-right: 5px;
 }
 
-nav ul#icons li{
+header ul#icons li{
 	width: 26px;
 	height: 25px;
 	margin: 0;
 	float: left;
 }
 
-nav ul#icons a{
+header ul#icons a{
 	background: url(../images/lk_icons.png) no-repeat;
 	display: block;
 	height: 25px;	
@@ -369,14 +369,23 @@ section#banner{
 /* ---------------------------------------------------------------------------------------------------
 		? Footer
 ---------------------------------------------------------------------------------------------------*/
+#footer_top{
+	background-color: #000;
+	height: 46px;
+	width: 100%;
+}
 
+#footer_bottom{
+	background-color: #000;
+	height: 34px;
+	width: 100%;
+}
 
 footer{
-	width: 100%;
-	padding: 40px 0;
 	background-color: #161616;
 	font: 22px 'FestivoLettersNo1';
 	overflow: hidden;
+	color: white;
 }
 
 h2{
@@ -520,7 +529,7 @@ img { max-width: 100%; }
  * 
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2642683
  * 
- * © 2013 MyFonts Inc
+ * ï¿½ 2013 MyFonts Inc
 */
 
 @import url("//hello.myfonts.net/count/2852fb");
