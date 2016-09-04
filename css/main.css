@@ -323,8 +323,8 @@ section#banner{
 		define width and height of list item (slide)
 		entire slider area will adjust according to the parameters provided here
 	*/ 
-	width: 840px;
-	height: 436px;
+	width: 840px; /*840px*/
+	height: 536px; /*436px*/
 	overflow: hidden; 
 }
 
@@ -520,7 +520,7 @@ img { max-width: 100%; }
  * 
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2642683
  * 
- * © 2013 MyFonts Inc
+ * ï¿½ 2013 MyFonts Inc
 */
 
 @import url("//hello.myfonts.net/count/2852fb");
