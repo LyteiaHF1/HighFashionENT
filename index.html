@@ -17,8 +17,13 @@
 
 		<!-- Main -->
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- Include slider and theme CSS files -->
+        <link rel="stylesheet" href="ideal-image-slider.css">
+        <link rel="stylesheet" href="themes/default/default.css">
 
 		<!-- Slider JS -->
+        <!-- Include slider JS file -->
+        <script src="ideal-image-slider.js"></script>
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/easySlider1.7.js"></script>
 		<script type="text/javascript">
@@ -67,9 +72,9 @@
 				<section id="banner">
 					<div id="slider">
 						<ul>				
-							<li><img src="images/savageyouth1.jpg" alt="Savage Youth Banner" /></li> <!-- brick-->
+							<li><img src="images/SavageGold.jpg" alt="Savage Youth Gold" /></li> <!-- brick-->
                             <li><img src="images/SavageGold.jpg" alt="Savage Youth Gold" /></li>	
-							<li><img src="images/savageyouth1.jpg" alt="Savage Youth Banner" /></li>	
+							<li><img src="images/SavageGold.jpg" alt="Savage Youth Gold" /></li>	
 							<li><img src="images/SavageGold.jpg" alt="Savage Youth Gold" /></li>	
 						</ul>
 					</div> <!-- end slider -->
@@ -136,8 +141,13 @@
 		</div> <!-- end wrapper -->
 
 		<!-- Slider JS -->
+         <!-- Create your slider -->
+        <script>
+            new IdealImageSlider.Slider('#slider');
+        </script>    
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/easySlider1.7.js"></script>
+            
 
 	</body>
 </html>

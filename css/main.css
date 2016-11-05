@@ -89,14 +89,12 @@ nav ul li#thank_you a{
 
 #header_nav{
 	margin-top: -52px;
-    padding: 50px 0 0 10px;
 }
 
 #logo img{
 	float: left;
-    padding: 50px 0 0 10px;
+    padding: 10px 0 0 10px;
 }
-
 
 nav ul{
 	float: left;
@@ -321,7 +319,7 @@ section#banner{
 		entire slider area will adjust according to the parameters provided here
 	*/ 
 	width: 840px; /*840px*/
-	height: 536px; /*436px*/
+	height:; 536px; /*436px*/
 	overflow: hidden; 
 }
 
