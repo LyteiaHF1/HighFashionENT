@@ -89,17 +89,14 @@ nav ul li#thank_you a{
 
 #header_nav{
 	margin-top: -52px;
+    padding: 50px 0 0 10px;
 }
 
 #logo img{
 	float: left;
+    padding: 50px 0 0 10px;
 }
 
-#logo_text{
-	float: left;
-	padding: 50px 0 0 10px;
-	font: 26px 'FestivoLettersNo1';
-}
 
 nav ul{
 	float: left;
