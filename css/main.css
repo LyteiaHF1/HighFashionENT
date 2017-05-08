@@ -264,6 +264,7 @@ p#instagram_info{
 	margin-top: 10px;
 	font: 25px 'FestivoLettersNo7';
 	text-align: center;
+    color: #bea322;
 }
 /*
 #thank_you{
@@ -319,7 +320,7 @@ section#banner{
 		entire slider area will adjust according to the parameters provided here
 	*/ 
 	width: 840px; /*840px*/
-	height:; 536px; /*436px*/
+	height: 436px; /*436px*/
 	overflow: hidden; 
 }
 
@@ -358,7 +359,7 @@ section#banner{
 
 #nextBtn a:hover, #slider1next a:hover{ 
 	background: url(../images/lk_right_arrow_hover.png) no-repeat 0 0;	
-}		
+}	*/	
 
 
 /* ---------------------------------------------------------------------------------------------------
