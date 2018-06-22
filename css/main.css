@@ -264,7 +264,8 @@ p#instagram_info{
 	margin-top: 10px;
 	font: 25px 'FestivoLettersNo7';
 	text-align: center;
-    color: #bea322;
+    color: black;
+    /*color: #bea322;*/
 }
 /*
 #thank_you{
